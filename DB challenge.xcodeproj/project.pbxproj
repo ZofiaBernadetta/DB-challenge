@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2312C76229BE414A00A1851E /* PostsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312C76129BE414A00A1851E /* PostsManager.swift */; };
+		2312C76529BE56D100A1851E /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312C76429BE56D100A1851E /* APIRequest.swift */; };
+		2312C76729BE56EC00A1851E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312C76629BE56EC00A1851E /* APIClient.swift */; };
+		2312C76929BE587E00A1851E /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312C76829BE587E00A1851E /* Requests.swift */; };
+		2312C7A729BE716E00A1851E /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312C7A629BE716E00A1851E /* KeychainHelper.swift */; };
+		2312C7A929BF0DAD00A1851E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312C7A829BF0DAD00A1851E /* AppCoordinator.swift */; };
 		232C00A929B6231800FBF285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00A829B6231800FBF285 /* AppDelegate.swift */; };
 		232C00AB29B6231800FBF285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00AA29B6231800FBF285 /* SceneDelegate.swift */; };
-		232C00AD29B6231800FBF285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00AC29B6231800FBF285 /* ViewController.swift */; };
-		232C00B029B6231800FBF285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232C00AE29B6231800FBF285 /* Main.storyboard */; };
+		232C00AD29B6231800FBF285 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00AC29B6231800FBF285 /* TimelineViewController.swift */; };
 		232C00B229B6231800FBF285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232C00B129B6231800FBF285 /* Assets.xcassets */; };
 		232C00B529B6231800FBF285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232C00B329B6231800FBF285 /* LaunchScreen.storyboard */; };
-		232C00C029B6231900FBF285 /* DB_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00BF29B6231900FBF285 /* DB_challengeTests.swift */; };
-		232C00CA29B6231900FBF285 /* DB_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00C929B6231900FBF285 /* DB_challengeUITests.swift */; };
-		232C00CC29B6231900FBF285 /* DB_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00CB29B6231900FBF285 /* DB_challengeUITestsLaunchTests.swift */; };
+		232C00C029B6231900FBF285 /* PostsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00BF29B6231900FBF285 /* PostsManagerTests.swift */; };
+		232C00D929B7651900FBF285 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00D829B7651900FBF285 /* LoginViewController.swift */; };
+		232C00DD29B76B5B00FBF285 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00DC29B76B5B00FBF285 /* Post.swift */; };
+		232C00DF29B8DD4000FBF285 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C00DE29B8DD4000FBF285 /* PostTableViewCell.swift */; };
+		2364F24029BDB4F0002F6A37 /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364F23F29BDB4F0002F6A37 /* PersistentContainer.swift */; };
+		2381EFCD29BDC2DB0002C5BA /* Favorite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2381EFCB29BDC2DB0002C5BA /* Favorite.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +34,29 @@
 			remoteGlobalIDString = 232C00A429B6231800FBF285;
 			remoteInfo = "DB challenge";
 		};
-		232C00C629B6231900FBF285 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 232C009D29B6231800FBF285 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 232C00A429B6231800FBF285;
-			remoteInfo = "DB challenge";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2312C76129BE414A00A1851E /* PostsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsManager.swift; sourceTree = "<group>"; };
+		2312C76429BE56D100A1851E /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		2312C76629BE56EC00A1851E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		2312C76829BE587E00A1851E /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		2312C7A629BE716E00A1851E /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		2312C7A829BF0DAD00A1851E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		232C00A529B6231800FBF285 /* DB challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DB challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		232C00A829B6231800FBF285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		232C00AA29B6231800FBF285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		232C00AC29B6231800FBF285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		232C00AF29B6231800FBF285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		232C00AC29B6231800FBF285 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		232C00B129B6231800FBF285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232C00B429B6231800FBF285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		232C00B629B6231800FBF285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		232C00BB29B6231900FBF285 /* DB challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DB challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		232C00BF29B6231900FBF285 /* DB_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_challengeTests.swift; sourceTree = "<group>"; };
-		232C00C529B6231900FBF285 /* DB challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DB challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		232C00C929B6231900FBF285 /* DB_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_challengeUITests.swift; sourceTree = "<group>"; };
-		232C00CB29B6231900FBF285 /* DB_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		232C00BF29B6231900FBF285 /* PostsManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsManagerTests.swift; sourceTree = "<group>"; };
+		232C00D829B7651900FBF285 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		232C00DC29B76B5B00FBF285 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		232C00DE29B8DD4000FBF285 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		2364F23F29BDB4F0002F6A37 /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
+		2381EFCC29BDC2DB0002C5BA /* Favorite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Favorite.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +74,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		232C00C229B6231900FBF285 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2312C76329BE56C000A1851E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2312C76429BE56D100A1851E /* APIRequest.swift */,
+				2312C76629BE56EC00A1851E /* APIClient.swift */,
+				2312C76829BE587E00A1851E /* Requests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		232C009C29B6231800FBF285 = {
 			isa = PBXGroup;
 			children = (
 				232C00A729B6231800FBF285 /* DB challenge */,
 				232C00BE29B6231900FBF285 /* DB challengeTests */,
-				232C00C829B6231900FBF285 /* DB challengeUITests */,
 				232C00A629B6231800FBF285 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +101,6 @@
 			children = (
 				232C00A529B6231800FBF285 /* DB challenge.app */,
 				232C00BB29B6231900FBF285 /* DB challengeTests.xctest */,
-				232C00C529B6231900FBF285 /* DB challengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +108,18 @@
 		232C00A729B6231800FBF285 /* DB challenge */ = {
 			isa = PBXGroup;
 			children = (
+				2381EFCB29BDC2DB0002C5BA /* Favorite.xcdatamodeld */,
 				232C00A829B6231800FBF285 /* AppDelegate.swift */,
 				232C00AA29B6231800FBF285 /* SceneDelegate.swift */,
-				232C00AC29B6231800FBF285 /* ViewController.swift */,
-				232C00AE29B6231800FBF285 /* Main.storyboard */,
+				2312C7A829BF0DAD00A1851E /* AppCoordinator.swift */,
+				2364F23F29BDB4F0002F6A37 /* PersistentContainer.swift */,
+				232C00AC29B6231800FBF285 /* TimelineViewController.swift */,
+				2312C76129BE414A00A1851E /* PostsManager.swift */,
+				2312C7A629BE716E00A1851E /* KeychainHelper.swift */,
+				232C00DE29B8DD4000FBF285 /* PostTableViewCell.swift */,
+				232C00D829B7651900FBF285 /* LoginViewController.swift */,
+				2312C76329BE56C000A1851E /* Networking */,
+				232C00DC29B76B5B00FBF285 /* Post.swift */,
 				232C00B129B6231800FBF285 /* Assets.xcassets */,
 				232C00B329B6231800FBF285 /* LaunchScreen.storyboard */,
 				232C00B629B6231800FBF285 /* Info.plist */,
@@ -113,18 +130,9 @@
 		232C00BE29B6231900FBF285 /* DB challengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				232C00BF29B6231900FBF285 /* DB_challengeTests.swift */,
+				232C00BF29B6231900FBF285 /* PostsManagerTests.swift */,
 			);
 			path = "DB challengeTests";
-			sourceTree = "<group>";
-		};
-		232C00C829B6231900FBF285 /* DB challengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				232C00C929B6231900FBF285 /* DB_challengeUITests.swift */,
-				232C00CB29B6231900FBF285 /* DB_challengeUITestsLaunchTests.swift */,
-			);
-			path = "DB challengeUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +173,6 @@
 			productReference = 232C00BB29B6231900FBF285 /* DB challengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		232C00C429B6231900FBF285 /* DB challengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 232C00D529B6231900FBF285 /* Build configuration list for PBXNativeTarget "DB challengeUITests" */;
-			buildPhases = (
-				232C00C129B6231900FBF285 /* Sources */,
-				232C00C229B6231900FBF285 /* Frameworks */,
-				232C00C329B6231900FBF285 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				232C00C729B6231900FBF285 /* PBXTargetDependency */,
-			);
-			name = "DB challengeUITests";
-			productName = "DB challengeUITests";
-			productReference = 232C00C529B6231900FBF285 /* DB challengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +187,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					232C00BA29B6231900FBF285 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 232C00A429B6231800FBF285;
-					};
-					232C00C429B6231900FBF285 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 232C00A429B6231800FBF285;
 					};
@@ -221,7 +207,6 @@
 			targets = (
 				232C00A429B6231800FBF285 /* DB challenge */,
 				232C00BA29B6231900FBF285 /* DB challengeTests */,
-				232C00C429B6231900FBF285 /* DB challengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +218,10 @@
 			files = (
 				232C00B529B6231800FBF285 /* LaunchScreen.storyboard in Resources */,
 				232C00B229B6231800FBF285 /* Assets.xcassets in Resources */,
-				232C00B029B6231800FBF285 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		232C00B929B6231900FBF285 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		232C00C329B6231900FBF285 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +235,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232C00AD29B6231800FBF285 /* ViewController.swift in Sources */,
+				232C00DF29B8DD4000FBF285 /* PostTableViewCell.swift in Sources */,
+				2381EFCD29BDC2DB0002C5BA /* Favorite.xcdatamodeld in Sources */,
+				232C00D929B7651900FBF285 /* LoginViewController.swift in Sources */,
+				2312C76229BE414A00A1851E /* PostsManager.swift in Sources */,
+				2312C76929BE587E00A1851E /* Requests.swift in Sources */,
+				232C00AD29B6231800FBF285 /* TimelineViewController.swift in Sources */,
+				2312C7A929BF0DAD00A1851E /* AppCoordinator.swift in Sources */,
+				232C00DD29B76B5B00FBF285 /* Post.swift in Sources */,
+				2312C76529BE56D100A1851E /* APIRequest.swift in Sources */,
+				2312C7A729BE716E00A1851E /* KeychainHelper.swift in Sources */,
 				232C00A929B6231800FBF285 /* AppDelegate.swift in Sources */,
 				232C00AB29B6231800FBF285 /* SceneDelegate.swift in Sources */,
+				2364F24029BDB4F0002F6A37 /* PersistentContainer.swift in Sources */,
+				2312C76729BE56EC00A1851E /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232C00C029B6231900FBF285 /* DB_challengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		232C00C129B6231900FBF285 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				232C00CC29B6231900FBF285 /* DB_challengeUITestsLaunchTests.swift in Sources */,
-				232C00CA29B6231900FBF285 /* DB_challengeUITests.swift in Sources */,
+				232C00C029B6231900FBF285 /* PostsManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,22 +268,9 @@
 			target = 232C00A429B6231800FBF285 /* DB challenge */;
 			targetProxy = 232C00BC29B6231900FBF285 /* PBXContainerItemProxy */;
 		};
-		232C00C729B6231900FBF285 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 232C00A429B6231800FBF285 /* DB challenge */;
-			targetProxy = 232C00C629B6231900FBF285 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		232C00AE29B6231800FBF285 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				232C00AF29B6231800FBF285 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		232C00B329B6231800FBF285 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +408,6 @@
 				INFOPLIST_FILE = "DB challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +435,6 @@
 				INFOPLIST_FILE = "DB challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -526,42 +490,6 @@
 			};
 			name = Release;
 		};
-		232C00D629B6231900FBF285 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zofiadrabek.DB-challengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "DB challenge";
-			};
-			name = Debug;
-		};
-		232C00D729B6231900FBF285 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zofiadrabek.DB-challengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "DB challenge";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -592,16 +520,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		232C00D529B6231900FBF285 /* Build configuration list for PBXNativeTarget "DB challengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				232C00D629B6231900FBF285 /* Debug */,
-				232C00D729B6231900FBF285 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2381EFCB29BDC2DB0002C5BA /* Favorite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2381EFCC29BDC2DB0002C5BA /* Favorite.xcdatamodel */,
+			);
+			currentVersion = 2381EFCC29BDC2DB0002C5BA /* Favorite.xcdatamodel */;
+			path = Favorite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 232C009D29B6231800FBF285 /* Project object */;
 }
